@@ -1,0 +1,165 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #fff;
+	color: #2c3e50;
+	font-family: LinotteRegular;
+}
+
+.unliststyle {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: LinotteLight;
+	src: url("../fonts/LinotteLight.ttf");
+}
+
+@font-face {
+	font-family: LinotteRegular;
+	src: url("../fonts/LinotteRegular.ttf");
+}
+
+
+/*-----*/
+
+.product {
+	margin: 15px 0px;
+}
+
+.product .category-product {
+	margin: 20px 0px;
+}
+
+.category-product .product-head {
+	padding: 15px 20px;
+	background: #16a085;
+	color: #fff;
+}
+
+.product .product-list {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+
+.product-item {
+	border: 2px solid #bdc3c7;
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 10px 20px 5px 20px;
+}
+
+.product-item:hover {
+	border: 2px solid #16a085;
+	
+}
+
+.product-item .product-img {
+	width: 100%;
+	display: block;
+}
+
+.product-item img {
+	width: 100%;
+	height: auto;
+}
+
+.product-img .badge-new {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+	background: #e74c3c;
+	color: #fff;
+	padding: 2px 5px;
+}
+
+.product-link {
+	text-align: center;
+}
+
+.product-info {
+
+}
+
+.product-price {
+	margin-top: 15px;
+	display: block;
+	position: relative;
+}
+
+.product-price .new-price {
+	color: #16a085;
+	margin: 0px;
+}
+
+.product-price .percent {
+	color: #fff;
+	background: #e74c3c;
+	position: absolute;
+	display: block;
+	right: 0;
+	top: 0;
+	padding: 2px 5px;
+}
+
+.product-price .old-price {
+	color: #95a5a6;
+	text-decoration: line-through;
+}
+
+.product-info .product-name {
+	overflow: hidden;
+	position: relative;
+	display: block;
+}
+
+.product-link .product-link-item {
+	display: inline-block;
+	cursor: pointer;
+	font-size: 25px;
+}
+
+.product-link .product-link-item:hover {
+	color: #16a085;
+}
+
+.product .category-product .view-more {
+	color: #95a5a6;
+	position: relative;
+	padding: 5px 15px;
+	font-size: 15px;
+	display: block;
+	position: relative;
+}
+
+.product .category-product .view-more:hover {
+	color: #2c3e50;
+}
